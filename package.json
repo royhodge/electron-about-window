@@ -14,6 +14,8 @@
     "debug": "electron ./example",
     "start": "npm run dep && npm run build && npm run example",
     "preversion": "npm run lint && npm run build"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
