@@ -23,11 +23,11 @@ app.once('ready', function() {
             label: 'Example',
             submenu: [
                 {
-                    label: 'About This App',
+                    label: 'Electron MultiChain App',
                     click: () =>
                         openAboutWindow({
                             icon_path: join(__dirname, 'icon.png'),
-                            copyright: 'Copyright (c) 2015 rhysd',
+                            copyright: 'Copyright (c) 2018 rh',
                             package_json_dir: __dirname,
                             open_devtools: process.env.NODE_ENV !== 'production',
                         }),
