@@ -1,28 +1,15 @@
-build: off
-
-os: unstable
-
 platform:
-  - x86
   - x64
 
-branches:
-  only:
-    - master
-
-skip_tags: true
-
-environment:
-  nodejs_version: "7"
-
 cache:
-  - node_modules -> package.json
+  - node_modules
+  - '%APPDATA%\npm-cache'
+  - '%USERPROFILE%\.electron'
 
 install:
-  - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node 7 x64
   - npm install
 
-test_script:
-  - node --version
-  - npm --version
-  - npm test
+build_script:
+  - npm run dist
+
