@@ -1,15 +1,15 @@
 {
-  "name": "electron-about-window-example",
-  "version": "1.0.0",
-  "description": "Example for about-window npm package",
-  "homepage": "https://github.com/rhysd/electron-about-window#readme",
+  "name": "electron-multichain-example",
+  "version": "1.0.1",
+  "description": "Example for electron multichain app",
+  "homepage": "https://github.com/royhodge/electron-multichain#readme",
   "bugs": {
-    "url": "https://github.com/rhysd/electron-about-window/issues"
+    "url": "https://github.com/royhodge/electron-multichain/issues"
   },
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rhysd <lin90162@yahoo.co.jp>",
+  "author": "rh <roy.hodge@mail.com>",
   "license": "MIT"
 }
