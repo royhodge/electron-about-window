@@ -1,5 +1,5 @@
 {
-  "name": "about-window",
+  "name": "electron-multichain",
   "version": "1.10.0",
   "description": "'About App' window for Electron application",
   "main": "src/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhysd/electron-about-window.git"
+    "url": "git+https://github.com/royhodge/electron-multichain.git"
   },
   "keywords": [
     "Electron",
@@ -25,12 +25,12 @@
     "about",
     "window"
   ],
-  "author": "rhysd <lin90162@yahoo.co.jp>",
+  "author": "rh <roy.hodge@mail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhysd/electron-about-window/issues"
+    "url": "https://github.com/royhodge/electron-multichain/issues"
   },
-  "homepage": "https://github.com/rhysd/electron-about-window#readme",
+  "homepage": "https://github.com/royhodge/electron-multichain#readme",
   "devDependencies": {
     "@types/node": "^9.4.6",
     "electron": "^1.8.2",
