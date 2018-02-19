@@ -2,6 +2,11 @@
 =============================================================================
 [![npm version](https://badge.fury.io/js/about-window.svg)](https://www.npmjs.com/package/about-window)
 
+![alt text](https://raw.githubusercontent.com/royhodge/electron-multichain/new-branch/images/electron-logo.svg)
+
+
+[!(https://github.com/royhodge/electron-multichain/blob/new-branch/images/logo.png)]
+
 [This package](https://www.npmjs.com/package/about-window) provides 'About This App' window for [Electron](https://github.com/atom/electron) applications.
 
 - [x] Create 'About This App' window from given parameters
