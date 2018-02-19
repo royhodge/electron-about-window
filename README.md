@@ -2,7 +2,7 @@
 (https://github.com/royhodge/electron-multichain)
 ========================================================
 
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Travis CI](https://img.shields.io/badge/Travis%20CI-Passing-green.svg?logo=travis)]()
 
 
 ```sh
