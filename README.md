@@ -1,4 +1,4 @@
-'About This App' Window for [Electron](https://github.com/atom/electron) Apps
+'Electron-Multichain' (https://github.com/atom/electron)
 =============================================================================
 [![npm version](https://badge.fury.io/js/about-window.svg)](https://www.npmjs.com/package/about-window)
 
@@ -17,7 +17,7 @@
 You can install this module via [npm](https://www.npmjs.com/).
 
 ```sh
-$ npm install about-window
+$ npm install electron-multichain
 ```
 
 Only one function is exported as default.  Please see [TypeScript type definition](index.d.ts).
@@ -88,19 +88,7 @@ $ npm run debug
 **Note:** If you set `use_inner_html` to `true`, please ensure that contents don't contain any untrusted external input
 in order to avoid XSS. Be careful.
 
-## Screen Shots
 
-### Linux
-
-![Linux screenshot](https://raw.githubusercontent.com/rhysd/ss/master/about-window/about-window-linux.png)
-
-### OS X
-
-![OS X screenshot](https://raw.githubusercontent.com/rhysd/ss/master/about-window/about-window-os-x.png)
-
-### Windows
-
-![Windows screenshot](https://raw.githubusercontent.com/rhysd/ss/master/about-window/about-window-windows.jpg)
 
 ## License
 
