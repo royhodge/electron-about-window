@@ -1,8 +1,7 @@
-'Electron-Multichain' (https://github.com/atom/electron)
+'Electron-Multichain' (https://github.com/royhodge/electron-multichain)
 =============================================================================
-[![npm version](https://badge.fury.io/js/about-window.svg)](https://www.npmjs.com/package/about-window)
 
-[This package](https://www.npmjs.com/package/about-window) provides 'About This App' window for [Electron](https://github.com/atom/electron) applications.
+
 
 - [x] Create 'About This App' window from given parameters
   - [x] Icon path
