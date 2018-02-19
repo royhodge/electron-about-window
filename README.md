@@ -2,7 +2,6 @@
 =============================================================================
 
 
-
 - [x] Create 'About This App' window from given parameters
   - [x] Icon path
   - [x] Copy right
@@ -57,8 +56,8 @@ openAboutWindow('path/to/icon.png');
 You can check [an example app](example) to know how to use this package.
 
 ```sh
-$ git clone https://github.com/rhysd/about-window.git
-$ cd about-window/example
+$ git clone https://github.com/royhodge/electron-multichain.git
+$ cd electron-multichain/example
 $ npm install
 $ npm start
 
