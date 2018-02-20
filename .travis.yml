@@ -19,7 +19,7 @@ addons:
     - libgnome-keyring-dev
     - icnsutils
     # Uncomment to include testing
-    - xvfb
+    #- xvfb
 before_install:
 - mkdir -p /tmp/git-lfs && curl -L https://github.com/github/git-lfs/releases/download/v1.2.1/git-lfs-$([
   "$TRAVIS_OS_NAME" == "linux" ] && echo "linux" || echo "darwin")-amd64-1.2.1.tar.gz
@@ -27,8 +27,8 @@ before_install:
 - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils; fi
 install:
 # Uncomment to include testing
-- export DISPLAY=':99.0'
-- Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+#- export DISPLAY=':99.0'
+#- Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 - nvm install 7
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 - source ~/.bashrc
@@ -36,8 +36,8 @@ install:
 - yarn
 script:
 # Uncomment to include testing
-- xvfb-maybe node_modules/.bin/karma start test/unit/karma.conf.js
-- yarn run pack && xvfb-maybe node_modules/.bin/mocha test/e2e
+#- xvfb-maybe node_modules/.bin/karma start test/unit/karma.conf.js
+#- yarn run pack && xvfb-maybe node_modules/.bin/mocha test/e2e
 - yarn run build
 branches:
   only:
