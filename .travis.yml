@@ -6,7 +6,7 @@
     true
   ],
   "script": [
-    true
+    yarn run build
   ],
   "group": "stable",
   "dist": "precise"
